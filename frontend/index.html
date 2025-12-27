@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/phishing_imagen.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Phishing Information - Protección y Prevención</title>
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <header class="main-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="logo-section">
+                    <img src="img/phishing_imagen.jpg" alt="Phishing Logo" class="logo-img">
+                    <h1 class="brand-title">Phishing Information</h1>
+                </div>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.infobae.com/tag/phishing/" target="_blank">
+                                <i class='bx bx-news'></i> Más noticias
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#dialogo1">
+                                <i class='bx bx-info-circle'></i> ¿Quiénes somos?
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="dialogo1" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">¿Quiénes somos?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Creamos una página web para que los usuarios tomen <strong>CONCIENCIA</strong> e información sobre la problemática y así aprender a cuidarse para no caer en este tipo de estafas. Además, en dicha página verán algunos links para que los usuarios vean noticias sobre experiencias de otras personas respecto al phishing y así no caigan en ellas. Con esto buscamos crear una comunidad informada.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+        <div class="container">
+            
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <h1 class="hero-title">Phishing Information</h1>
+                <p class="hero-subtitle">Información sobre el Phishing</p>
+                <div class="hero-divider"></div>
+            </section>
+
+            <!-- Banner Image -->
+            <div class="banner-container">
+                <img src="img/banner.jpg" alt="Banner de Seguridad" class="banner-img">
+            </div>
+
+            <!-- Card 1: Suplantación de Identidad -->
+            <div class="info-card card-primary">
+                <div class="card-icon">
+                    <i class='bx bx-shield-alt-2'></i>
+                </div>
+                <h3 class="card-header-title">Suplantación de Identidad</h3>
+                <h5 class="card-subtitle">¿Qué es el phishing?</h5>
+                <p class="card-text">
+                    El phishing es un método para engañar a las personas y hacer que compartan contraseñas, números de tarjeta de crédito, y otra información confidencial haciéndose pasar por una institución de confianza (Ej: personal de un banco) en un mensaje de correo electrónico o llamada telefónica para robar sus datos personales y, cometer así, suplantación de identidad.
+                </p>
+            </div>
+
+            <!-- Carousel -->
+            <div class="carousel-section">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/ciberseguridad-04.jpg" class="d-block w-100" alt="Ciberseguridad">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/image.jpg" class="d-block w-100" alt="Seguridad Digital">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/618f5d42634d992357423deee07f4ffb_XL.jpg" class="d-block w-100" alt="Protección Online">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Card 2: Consecuencias -->
+            <div class="info-card card-danger">
+                <div class="card-icon">
+                    <i class='bx bx-error-circle'></i>
+                </div>
+                <h3 class="card-header-title">Consecuencias</h3>
+                <h5 class="card-subtitle">¿En qué puede afectar a mis contraseñas?</h5>
+                <p class="card-text">
+                    Quien intente robar una identidad puede usar luego la información recolectada para solicitar un crédito o realizar alguna gestión ante un organismo público. Estas acciones pueden dañar la reputación y patrimonio de la víctima, además de costar tiempo y recursos económicos para reparar el daño.
+                </p>
+                <ul class="consequences-list">
+                    <li><i class='bx bx-chevron-right'></i> Que pidan un crédito o adquieran bienes o servicios en tu nombre</li>
+                    <li><i class='bx bx-chevron-right'></i> Que te vacíen la cuenta bancaria sin tu conocimiento</li>
+                    <li><i class='bx bx-chevron-right'></i> Que utilicen tu identidad para cometer delitos graves</li>
+                    <li><i class='bx bx-chevron-right'></i> Que te denieguen préstamos o no puedas conseguir un empleo</li>
+                </ul>
+            </div>
+
+            <!-- Card 3: Tipos de Estafa -->
+            <div class="info-card card-warning">
+                <div class="card-icon">
+                    <i class='bx bx-bug'></i>
+                </div>
+                <h3 class="card-header-title">Distintos tipos de estafa</h3>
+                
+                <div class="scam-types">
+                    <div class="scam-type">
+                        <h6><i class='bx bx-envelope'></i> Por correo electrónico</h6>
+                        <p>Los mensajes de correo electrónico son el método más común para entregar el cebo del phishing. Suelen contener enlaces que llevan hasta sitios web maliciosos o archivos adjuntos infectados con malware.</p>
+                    </div>
+                    
+                    <div class="scam-type">
+                        <h6><i class='bx bx-globe'></i> Por sitio web</h6>
+                        <p>Se hacen copias falsas de sitios web que la gente conoce y en los que confía. Los hackers crean estos sitios para engañarlo de modo que introduzca sus credenciales de inicio de sesión.</p>
+                    </div>
+                    
+                    <div class="scam-type">
+                        <h6><i class='bx bx-phone'></i> Vishing</h6>
+                        <p>Esta abreviatura de "voice phishing" hace referencia a la versión telefónica del phishing. El atacante intenta convencer por teléfono a las víctimas para que revelen información personal.</p>
+                    </div>
+                    
+                    <div class="scam-type">
+                        <h6><i class='bx bx-message'></i> Smishing</h6>
+                        <p>Éste se refiere al phishing vía SMS. La persona recibe un mensaje de texto donde se le pide que haga clic en un enlace o descargue una aplicación maliciosa.</p>
+                    </div>
+                    
+                    <div class="scam-type">
+                        <h6><i class='bx bxl-facebook-circle'></i> Por redes sociales</h6>
+                        <p>Algunos atacantes pueden colarse en las cuentas de redes sociales y forzar a la gente a enviar enlaces maliciosos a sus amigos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Security Image -->
+            <div class="security-image">
+                <img src="img/images.jpg" alt="Seguridad Digital" class="img-fluid">
+            </div>
+
+            <!-- Card 4: Recomendaciones -->
+            <div class="info-card card-success">
+                <div class="card-icon">
+                    <i class='bx bx-check-shield'></i>
+                </div>
+                <h3 class="card-header-title">¿Cómo evitarlo?</h3>
+                <h5 class="card-subtitle">Recomendaciones</h5>
+                <p class="card-text">
+                    Comunícate con organismos y empresas sólo por canales oficiales. Chequea dominios de correos y verificación de las cuentas en redes sociales; si vas a compartir información personal o bancaria asegúrate que <strong>la página esté protegida con el protocolo HTTPS.</strong>
+                </p>
+                
+                <h6 class="recommendations-title">Para generar contraseñas seguras:</h6>
+                <ul class="recommendations-list">
+                    <li><i class='bx bx-check'></i> Combina letras mayúsculas y minúsculas, números y caracteres especiales</li>
+                    <li><i class='bx bx-check'></i> Dale una longitud de <strong>ocho o más caracteres</strong></li>
+                    <li><i class='bx bx-check'></i> Utiliza una frase de origen desconocida por otros</li>
+                    <li><i class='bx bx-check'></i> Reemplaza letras por números o signos</li>
+                    <li><i class='bx bx-check'></i> Usa una contraseña que te recuerde algún hecho relevante</li>
+                    <li><i class='bx bx-check'></i> Evita palabras comunes o nombres fáciles de deducir</li>
+                    <li><i class='bx bx-check'></i> No uses datos personales (DNI, fecha de nacimiento, etc.)</li>
+                    <li><i class='bx bx-check'></i> No utilices la misma contraseña en diferentes sistemas</li>
+                </ul>
+            </div>
+
+            <!-- Card 5: Audiencia -->
+            <div class="info-card card-dark">
+                <div class="card-icon">
+                    <i class='bx bx-group'></i>
+                </div>
+                <h3 class="card-header-title">¿A quiénes va dedicada esta página?</h3>
+                <h5 class="card-subtitle">¿Por qué?</h5>
+                <p class="card-text">
+                    Nuestra página va dedicada a los adultos mayores que quizás, al no haber crecido tanto con la tecnología como la generación de ahora, sean más vulnerables a la hora de caer en este tipo de trampas. Para poder brindarles y facilitarles algo más de información y así puedan mantenerse seguros en el mundo virtual. <strong>¡Siempre pueden contactarnos!</strong> Dejamos nuestra información más abajo.
+                </p>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="container">
+            
+            <!-- Newsletter Section -->
+            <div class="row newsletter-section">
+                <div class="col-lg-7">
+                    <h2 class="footer-title">Conozca los avances en Ciberseguridad</h2>
+                    <p class="footer-text">¿Le gustaría saber sobre los últimos avances de seguridad informática? Suscríbase a nuestro blog y sepa cómo proteger su computadora de posibles amenazas.</p>
+                </div>
+                <div class="col-lg-5">
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Ingrese su email" class="form-control">
+                        <button class="btn btn-subscribe">Suscribirse</button>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="footer-divider">
+
+            <!-- Footer Links -->
+            <div class="row footer-links">
+                <div class="col-md-4">
+                    <h3 class="footer-subtitle">Empresas</h3>
+                    <ul>
+                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#dialogo1"><i class='bx bx-info-circle'></i> ¿Quiénes somos?</a></li>
+                        <li><a href="https://www.infobae.com/tag/phishing/" target="_blank"><i class='bx bx-news'></i> Más noticias</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h3 class="footer-subtitle">Contactos</h3>
+                    <ul class="contact-list">
+                        <li><i class='bx bxl-facebook'></i> mundociberseguridad</li>
+                        <li><i class='bx bxl-twitter'></i> @mundo_ciberseguridad</li>
+                        <li><i class='bx bxl-whatsapp'></i> 11-4008-5861</li>
+                        <li><i class='bx bx-envelope'></i> ciberseguridad.2023@yahoo.com</li>
+                        <li><i class='bx bxl-discord-alt'></i> Discord</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h3 class="footer-subtitle">Más información</h3>
+                    <ul>
+                        <li><a href="https://www.argentina.gob.ar/justicia/convosenlaweb/situaciones/phishing" target="_blank"><i class='bx bx-support'></i> Soporte</a></li>
+                        <li><a href="https://aprendeprogramando.bue.edu.ar/" target="_blank"><i class='bx bx-conversation'></i> Foros</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 Phishing Information. Todos los derechos reservados.</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/animations.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,222 @@
+/* ===========================
+   ESTILOS GENERALES
+   =========================== */
+
+:root {
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --success-color: #198754;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --dark-color: #212529;
+    --light-color: #f8f9fa;
+    --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
+    color: var(--dark-color);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* ===========================
+   MAIN CONTENT
+   =========================== */
+
+.main-content {
+    min-height: 100vh;
+    padding: 2rem 0;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 3rem 0;
+    animation: fadeInDown 0.8s ease;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    background: var(--bg-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    font-weight: 300;
+}
+
+.hero-divider {
+    width: 100px;
+    height: 4px;
+    background: var(--bg-gradient);
+    margin: 2rem auto;
+    border-radius: 2px;
+}
+
+/* Banner */
+.banner-container {
+    margin: 3rem 0;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(--card-shadow);
+    animation: fadeIn 1s ease;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.banner-img:hover {
+    transform: scale(1.05);
+}
+
+/* Security Image */
+.security-image {
+    text-align: center;
+    margin: 4rem 0;
+    animation: fadeIn 1.2s ease;
+}
+
+.security-image img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: var(--card-shadow);
+    transition: transform 0.3s ease;
+}
+
+.security-image img:hover {
+    transform: translateY(-10px);
+}
+
+/* ===========================
+   CAROUSEL
+   =========================== */
+
+.carousel-section {
+    margin: 4rem 0;
+    padding: 0 2rem;
+}
+
+#carouselExampleIndicators {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(--card-shadow);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.carousel-indicators button.active {
+    background-color: #fff;
+}
+
+/* ===========================
+   ANIMATIONS
+   =========================== */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* ===========================
+   RESPONSIVE
+   =========================== */
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .carousel-inner img {
+        height: 300px;
+    }
+    
+    .security-image img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-title {
+        font-size: 1.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .carousel-inner img {
+        height: 200px;
+    }
+}
