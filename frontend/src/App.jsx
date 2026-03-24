@@ -756,7 +756,7 @@ function App() {
     {/* Copyright */}
     <div className="footer-bottom">
       <p>
-        &copy; 2024 Phishing Information. Todos los derechos reservados.
+        &copy; 2026 Phishing Information. Todos los derechos reservados.
       </p>
     </div>
 
