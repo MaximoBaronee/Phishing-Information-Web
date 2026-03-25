@@ -737,7 +737,7 @@ function App() {
 
           <li>
             <a
-              href="https://aprendeprogramando.bue.edu.ar/"
+              href="https://www.reddit.com/search/?q=phishing+reportes&cId=2873fe55-f6a6-4f4f-aa75-00f9ce7ab9e1&iId=dbc5368d-140c-4377-9523-a5a7425bc445"
               target="_blank"
             >
               <i className="bx bx-conversation"></i>
