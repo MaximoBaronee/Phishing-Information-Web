@@ -69,7 +69,7 @@ function App() {
 
             <div className="logo-section">
               <img
-                src="img/phishing_imagen.jpg"
+                src="/img/phishing_imagen.jpg"
                 alt="Phishing Logo"
                 className="logo-img"
               />
@@ -213,7 +213,7 @@ function App() {
           <div className="banner-container">
 
             <img
-              src="img/banner.jpg"
+              src="/img/banner.jpg"
               className="banner-img"
             />
 
@@ -282,7 +282,7 @@ function App() {
 
       <div className="carousel-item active">
         <img
-          src="img/ciberseguridad-04.jpg"
+          src="/img/ciberseguridad-04.jpg"
           className="d-block w-100"
           alt="Ciberseguridad"
         />
@@ -290,7 +290,7 @@ function App() {
 
       <div className="carousel-item">
         <img
-          src="img/image.jpg"
+          src="/img/image.jpg"
           className="d-block w-100"
           alt="Seguridad Digital"
         />
@@ -298,7 +298,7 @@ function App() {
 
       <div className="carousel-item">
         <img
-          src="img/618f5d42634d992357423deee07f4ffb_XL.jpg"
+          src="/img/618f5d42634d992357423deee07f4ffb_XL.jpg"
           className="d-block w-100"
           alt="Protección Online"
         />
@@ -477,7 +477,7 @@ function App() {
 <div className="security-image">
 
   <img
-    src="img/images.jpg"
+    src="/img/images.jpg"
     alt="Seguridad Digital"
     className="img-fluid"
   />
